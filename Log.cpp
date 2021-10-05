@@ -6,7 +6,9 @@ using namespace std;
 
 void Log(string msg)
 {
+	cout << "-----------------------------------------------" << endl;
 	cout << msg << endl;
+	cout << "-----------------------------------------------" << endl;
 }
 
 void InitializeLog()
