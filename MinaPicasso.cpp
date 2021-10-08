@@ -6,37 +6,9 @@ using namespace std;
 #include "Shape.h"
 #include "Rectangle.h"
 #include "Log.h"
+#include "Square.h"
+#include "Circle.h"
 
-class Square : public Rectangle
-{
-public:
-	Square(double side) : Rectangle(side, side)
-	{
-		Log("Square constructor!");
-	}
-
-	~Square() {}
-};
-
-class Circle : public Shape
-{
-private:
-	double m_radius;
-
-public:
-	Circle(double r) : Shape("Circle")
-	{
-		m_radius = r;
-		Log("Circle constructor!");
-	}
-
-	double CalculateArea()
-	{
-		return 3.14 * pow(m_radius, 2);
-	}
-
-	~Circle() {}
-};
 
 int main()
 {
