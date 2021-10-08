@@ -8,6 +8,12 @@ Circle :: Circle(double r) : Shape("Circle")
 		Log("Circle constructor!");
 }
 
+// default constructor
+//Circle::Circle() : Shape("circle")
+//{
+//	m_radius = 0.0;
+//}
+
 double Circle :: CalculateArea()
 {
 		return 3.14 * pow(m_radius, 2);

@@ -1,0 +1,7 @@
+default constructor
+copy constructor
+relationships is has own use
+pointer 
+reference
+array
+polymorphism

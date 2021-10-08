@@ -9,6 +9,8 @@ private:
 
 public:
 	Circle(double r);
+	// default constructor
+	//Circle();
 
 	double CalculateArea();
 
